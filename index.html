@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>image slider</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>
+        .show {
+            display: block;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="div0" style="display: block">
+    <img src="images.jpg" alt="" id="img">
+    <span id="spn0" class="show" onclick="change('images0.jpg','spn0','spn1');">&#8594;</span>
+    <span id="spn1" class="hide" onclick="change('images1.jpg','spn1','spn2');">&#8594;</span>
+    <span id="spn2" class="hide" onclick="change('images2.jpg','spn2','spn3');">&#8594;</span>
+    <span id="spn3" class="hide" onclick="change('images3.jpg','spn3','spn4');">&#8594;</span>
+    <span id="spn4" class="hide" onclick="change('images.jpg','spn4','spn0');">&#8594;</span>
+
+    </div>
+    <!--<div id="div1" style="display: none">
+    <img src="images0.jpg" alt="" class="hide">
+    <span >&#8594;</span>
+    </div>
+    <div id="div2" style="display: none">
+    <img src="images1.jpg" alt="" class="hide">
+    <span >&#8594;</span>
+    </div>
+    <div id="div3" style="display: none">
+    <img src="images2.jpg" alt="" class="hide">
+    <span >&#8594;</span>
+    </div>
+    <div id="div4" style="display: none">
+    <img src="images3.jpg" alt="" class="hide">
+    <span >&#8594;</span>
+    </div>-->
+    <script src="app.js"></script>
+</body>
+</html>
