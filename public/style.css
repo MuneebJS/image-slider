@@ -1,0 +1,21 @@
+
+.show {
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        right: 0;
+        display: "none";
+        }
+.hide {
+        display: none;
+        }
+#img {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 700px;
+    width: 100%;
+}
+
+    
